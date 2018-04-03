@@ -1,0 +1,9 @@
+// 常用的变量
+$ghs-color: #7f1084;
+$background-color: #fafafa;
+
+/* 公共的自定义函数 */
+@function px2vw($px, $screen-width: 750) {
+  @return ($px / $screen-width) * 100vw;
+}
+
